@@ -1,0 +1,35 @@
+{
+	"manifest_version": 2,
+	"name": "Transcriptor",
+	"description": "Select your text",
+	"version": "1.0",
+	"author": "Elang",
+	"browser_action": {
+		"default_popup": "popup.html"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"<all_urls>"
+			],
+			"js": ["main.js"]
+		}
+	],
+    "web_accessible_resources": [
+        "index.html"
+    ],
+    "Custom page": [
+        "chrome://extensions/?id=ocfggjglcgolflnjpclglgjkclcnfibj/index.html"
+    ],
+    "resources": [
+        {
+          "id": "my_onnx_model",
+          "type": "onnx",
+          "path": "/Users/macboookpro/recognition-web-server/whisper_cpu_int8_cpu-cpu_model.onnx"
+        }
+    ],
+    "permissions": [
+        "tabs"
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval' 'wasm-eval'; object-src 'self'"
+}
