@@ -10,5 +10,5 @@ npx light-server -s . -p 8888
 ## 1. Download this repository;
 ## 2. Download model:
 https://drive.google.com/drive/folders/10sprtEcwOSMJPmn-5y0xi5QwlsDswrMx?usp=drive_link
-## 3. We need to have Chrome browser. Then use this [link](hrome://extensions/)
+## 3. We need to have Chrome browser. Then use this [link] (chrome://extensions/)
 
