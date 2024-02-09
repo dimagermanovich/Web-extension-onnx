@@ -18,9 +18,9 @@ Follow these steps to run the extension:
 
 4. **Open Chrome Extensions**: Launch the Chrome browser and open a new tab. In the address bar, type `chrome://extensions/` and press Enter. This will take you to the Chrome Extensions page.
 
-5. **Enable Developer Mode**: On the top-right corner of the Extensions page, you will find a toggle switch labeled "Developer mode". Enable this mode by sliding the toggle to the right.
+5. **Enable Developer Mode**: On the top-right corner of the Extensions page, you will find a toggle switch labeled `Developer mode`. Enable this mode by sliding the toggle to the right.
 
-6. **Load the Extension**: Look for the button labeled "Load unpacked" and click on it. A file selection dialog will appear.
+6. **Load the Extension**: Look for the button labeled `Load unpacked` and click on it. A file selection dialog will appear.
 
 7. **Select the Repository Folder**: Navigate to the folder where you downloaded the repository, and select it. This will load the extension into Chrome.
 
